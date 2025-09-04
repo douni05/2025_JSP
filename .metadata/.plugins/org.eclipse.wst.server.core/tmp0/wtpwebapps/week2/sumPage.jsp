@@ -21,7 +21,7 @@
 		/* 선언부 : 메소드 정의나 전역변수 설정 */
 		public int sum(int x, int y){
 		 return x+y;
-	}
+		}
 	%>
 	
 	<h3>
