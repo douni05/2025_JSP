@@ -1,11 +1,3 @@
-package week2;
-
-import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet("/HelloServlet")
@@ -36,6 +28,5 @@ public class HelloServlet extends HttpServlet {
 		// get 방식 처리내용과 동일하다면 doGet() 메서드 호출해서 처리
 		doGet(request, response);
 	}
-
 
 }
